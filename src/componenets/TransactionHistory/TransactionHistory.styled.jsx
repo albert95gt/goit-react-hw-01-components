@@ -32,7 +32,9 @@ export const TableBody = styled.tbody`
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-
+  td:first-of-type {
+    text-transform: capitalize;
+  }
   td:not(:last-child) {
     border-right: 1px solid #f1f1f1;
   }
